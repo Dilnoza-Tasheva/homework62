@@ -19,13 +19,12 @@ const About = () => {
          </Typography>
 
 
-         <Grid container spacing={4} justifyContent="center">
-           <Grid item>
+         <Grid container spacing={2} justifyContent="center">
+           <Grid item xs={12} sm={6} md={4}>
              <Card>
                <CardMedia
                  component="img"
-                 height="400"
-                 width="100"
+                 height="300"
                  image="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
                  alt="CEO"/>
                <CardContent>
@@ -34,6 +33,50 @@ const About = () => {
                  </Typography>
                  <Typography variant="body2" color="text.secondary">
                    CEO & Founder
+                 </Typography>
+                 <Typography variant="body2" color="text.secondary">
+                   Lorem impsum dolor sit amet, consetetur sadipscing elitr.
+                 </Typography>
+               </CardContent>
+             </Card>
+           </Grid>
+
+           <Grid item xs={12} sm={6} md={4}>
+             <Card>
+               <CardMedia
+                 component="img"
+                 height="300"
+                 width="100"
+                 image="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                 alt="CEO"/>
+               <CardContent>
+                 <Typography variant="h5" component="div">
+                   John Doe
+                 </Typography>
+                 <Typography variant="body2" color="text.secondary">
+                   Chief Technology Officer
+                 </Typography>
+                 <Typography variant="body2" color="text.secondary">
+                   Lorem impsum dolor sit amet, consetetur sadipscing elitr.
+                 </Typography>
+               </CardContent>
+             </Card>
+           </Grid>
+
+           <Grid item xs={12} sm={6} md={4}>
+             <Card>
+               <CardMedia
+                 component="img"
+                 height="300"
+                 width="100"
+                 image="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                 alt="CEO"/>
+               <CardContent>
+                 <Typography variant="h5" component="div">
+                   John Doe
+                 </Typography>
+                 <Typography variant="body2" color="text.secondary">
+                   Chief Operations Officer
                  </Typography>
                  <Typography variant="body2" color="text.secondary">
                    Lorem impsum dolor sit amet, consetetur sadipscing elitr.

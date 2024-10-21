@@ -1,6 +1,13 @@
-import { NavLink } from 'react-router-dom';
-import { AppBar, Box, Button, IconButton, Toolbar, Typography } from '@mui/material';
-import logo from '../../assets/logo.svg';
+import { NavLink } from "react-router-dom";
+import {
+  AppBar,
+  Box,
+  Button,
+  IconButton,
+  Toolbar,
+  Typography,
+} from "@mui/material";
+import logo from "../../assets/logo.svg";
 
 const ToolBar = () => {
   return (
@@ -22,9 +29,15 @@ const ToolBar = () => {
           </Typography>
 
           <Box>
-            <Button color="inherit" component={NavLink} to="/">Home</Button>
-            <Button color="inherit" component={NavLink} to="/about">About</Button>
-            <Button color="inherit" component={NavLink} to="/contacts">Contacts</Button>
+            <Button color="inherit" component={NavLink} to="/">
+              Home
+            </Button>
+            <Button color="inherit" component={NavLink} to="/about">
+              About
+            </Button>
+            <Button color="inherit" component={NavLink} to="/contacts">
+              Contacts
+            </Button>
           </Box>
         </Toolbar>
       </AppBar>

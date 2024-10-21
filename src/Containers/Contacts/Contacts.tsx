@@ -1,11 +1,10 @@
-import { Box, Button, Container, TextField, Typography } from '@mui/material';
-import * as React from 'react';
-
+import { Box, Button, Container, TextField, Typography } from "@mui/material";
+import * as React from "react";
 
 const Contacts = () => {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Message sent! We will get back to you as soon as possible')
+    alert("Message sent! We will get back to you as soon as possible");
   };
 
   return (
@@ -16,19 +15,20 @@ const Contacts = () => {
         </Typography>
 
         <Typography variant="body1" align="center">
-          If you have any questions or inquiries, feel free to reach out to us using the form below.
+          If you have any questions or inquiries, feel free to reach out to us
+          using the form below.
         </Typography>
 
         <Box
           component="form"
           onSubmit={onSubmit}
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
             mt: 3,
-            maxWidth: '500px',
-            mx: 'auto', // Center the form
+            maxWidth: "500px",
+            mx: "auto",
           }}
         >
           <TextField
@@ -53,7 +53,12 @@ const Contacts = () => {
             fullWidth
             margin="normal"
           />
-          <Button type="submit" variant="contained" color="primary" sx={{ mt: 2 }}>
+          <Button
+            type="submit"
+            variant="contained"
+            color="primary"
+            sx={{ mt: 2 }}
+          >
             Send message
           </Button>
         </Box>

@@ -18,11 +18,10 @@ const Home = () => {
         </Container>
       </Box>
 
-      <Container>
+      <Container sx={{ mt: 5 }}>
         <Typography variant="h4" component="h2" gutterBottom align="center">
           Our Services
         </Typography>
-      </Container>
 
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={4}>
@@ -40,9 +39,7 @@ const Home = () => {
             </CardActions>
           </Card>
         </Grid>
-      </Grid>
 
-      <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={4}>
           <Card>
             <CardContent>
@@ -58,9 +55,7 @@ const Home = () => {
             </CardActions>
           </Card>
         </Grid>
-      </Grid>
 
-      <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={4}>
           <Card>
             <CardContent>
@@ -77,6 +72,8 @@ const Home = () => {
           </Card>
         </Grid>
       </Grid>
+
+      </Container>
     </div>
   );
 };
